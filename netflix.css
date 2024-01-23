@@ -1,0 +1,507 @@
+body{
+ margin: -1rem;
+ background-color: rgb(57, 53, 53);
+}
+.container1{
+    height: 100vh;
+    background-image: url('assets/NG-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    width: 100%;
+    box-shadow: 200px 00px 300px 350px rgba(0,0,0,0.8) inset
+}
+.head{
+    margin-right: 9rem;
+    margin-left: 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflixlogo{
+    
+    margin-top: 3rem;
+    width: 180px;
+   
+}
+.signin{
+    background-color: rgb(209, 9, 9);
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    border-style: none;
+    border-color:rgb(222, 35, 35);
+    cursor: pointer;
+    margin-top: 3rem;
+    color: white;
+    font-weight: 600;
+  
+}
+.content{
+    font-size: 20px;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    text-align: center;
+    color: white;
+}
+.play{
+    margin-left: 40rem;
+    padding-top: 0.8rem;
+   
+    position: absolute;
+    background-color: rgb(51, 145, 240);
+    border-radius: 7px;
+    width: 140px;
+    height: 35px;
+    border-style: none;
+    border-color:  rgb(55, 106, 235);
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.watch{
+    font-size: 25px;
+    margin-top: -1.5rem;
+}
+
+.emailbox {
+    border-width: 0.1rem;
+    border-radius: 0.3rem;
+    border-style: solid;
+    font-size: 16px;
+    height: 55px;
+    width: 350px;
+    
+    background-color: rgb(22, 21, 21);
+    opacity: 0.6;
+    color: white;
+    
+}
+.ready{
+    font-size: 22px;
+}
+
+.getstarted{
+    background-color: rgb(209, 9, 9);
+    border-radius: 5px;
+    height: 57px;
+    width: 200px;
+    border-style: none;
+    border-color:rgb(222, 35, 35);
+    position: absolute;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-top: -3.7rem;
+    margin-left: 3.5rem;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+
+ ::placeholder{
+    color: rgb(255, 255, 255);
+    padding-left: 0.6rem;
+ }
+
+
+ .container2{
+    display: flex;
+    margin-top: 44.6rem;
+    background-color: black;
+    width: 100%;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+  
+ }
+ .content2{
+    font-size: 20px;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    color: white;
+  
+}
+.content2 h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.texts{
+    width: 550px;
+    flex-wrap: wrap;
+}
+.content2 p{
+    font-size: 24px;
+}
+.side{
+    margin-left: -8rem;
+}
+.vid{
+    width: 370px;
+    transform: translateY(-2%);
+    margin-left: 4rem;
+}
+.frame{
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 4;
+    width: 500px;
+}
+.container3{
+    display: flex;
+    margin-top: 0.5rem;
+    background-color: black;
+    width: 100%;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .left_content_c3{
+    margin-top: 7rem;
+ }
+
+.image{
+    height: 400px;
+}
+.texts3{
+    font-size: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    width: 550px;
+    flex-wrap: wrap;
+    color: white;
+
+}
+.texts3 h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.box{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    border-style: solid;
+    border-color: gray;
+    background-color: black;
+    border-radius: 0.6rem;
+    gap: 20px;
+    transform: translateY(-130%);
+    margin-left: 7rem;
+   
+}
+.boxshot{
+    margin-left: 0.8rem;
+    height: 85%;
+}
+
+.textshot{
+    flex-wrap: wrap;
+
+    width: 120px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+.download{
+    color: rgb(56, 100, 242);
+}
+.downloadshot{
+    
+    width: 48px;
+}
+
+
+.container4{
+    display: flex;
+    margin-top: 0.6rem;
+    background-color: black;
+    width: 100%;
+    height: 65vh;
+    align-items: center;
+ }
+ .content4{
+    text-align: left;
+    color: white;
+    padding: 9rem;
+}
+.texts4{
+    font-size: 21px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    width: 370px;
+    flex-wrap: wrap;
+    color: white;
+}
+.texts4 h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 340px;
+}
+.container5{
+    display: flex;
+    margin-top: 0.5rem;
+    background-color: black;
+    width: 100%;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+ .content5{
+   
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: white;
+    padding: 9rem;
+
+}
+.texts5{
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    width: 570px;
+    flex-wrap: wrap;
+    color: white;
+}
+.texts5 h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container6{
+    background-color: black;
+    width: 100%;
+    height: 145vh;
+    margin-top: -1.6rem;
+ }
+ .container6 h1{
+    padding-top: 5rem;
+    margin-left: 12rem;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+   
+ }
+
+
+ .box1{
+    margin-top: 0.5rem;
+    align-items: center;
+    display: flex;
+    background-color: rgb(48, 49, 50);
+    width: 100%;
+    height: 7vh;
+    justify-content: space-between;
+    padding: 1rem;
+   
+    
+    
+ }
+ .container6 p{
+    margin-left: 12rem;
+    color: white;
+    font-size: 20px;
+    
+   
+    
+    font-family: 'Nunito Sans', sans-serif;
+
+ }
+ .material-symbols-outlined{
+    color: white;
+   
+ }
+ .displaycon{
+    width: 70%;
+    margin: auto;
+   
+   
+ }
+ .form2{
+   display: flex;
+   justify-content: center;
+ }
+
+.box1 p{
+    margin-left: 0rem;
+    color: white;
+    font-size: 24px;
+
+}
+.box1:hover{
+    cursor: pointer;
+   background-color: rgb(62, 63, 66);
+}
+
+.b2{
+    background-color: gray;
+    width: 130.5vh;
+    margin-top: -1rem;
+   
+}
+.b1 {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.b2{
+    display: none;
+}
+.b1:focus-within .b2{
+    display: block;
+}
+
+.box1_dropdown{
+   background-color: rgb(48, 49, 50);
+   height: 230px;
+   width: 129.1vh;
+   margin-left: 0.4rem;
+   display: none;
+}
+.box1_dropdown p{
+    margin: auto;
+    padding: 1rem;
+    font-size: 22px;
+}
+.box2_dropdown{
+    background-color: rgb(48, 49, 50);
+    height: 100px;
+    width: 129.1vh;
+    margin-left: 0.4rem;
+    display: none;
+ }
+ .box2_dropdown p{
+     margin: auto;
+     padding: 1rem;
+     font-size: 22px;
+ }
+ .box3_dropdown{
+    background-color: rgb(48, 49, 50);
+    height: 240px;
+    width: 129.1vh;
+    margin-left: 0.4rem;
+    display: none;
+ }
+ .box3_dropdown p{
+     margin: auto;
+     padding: 1rem;
+     font-size: 22px;
+ }
+ .box4_dropdown{
+    background-color: rgb(48, 49, 50);
+    height: 100px;
+    width: 129.1vh;
+    margin-left: 0.4rem;
+    display: none;
+ }
+ .box4_dropdown p{
+     margin: auto;
+     padding: 1rem;
+     font-size: 22px;
+ }
+ .box5_dropdown{
+    background-color: rgb(48, 49, 50);
+    height: 100px;
+    width: 129.1vh;
+    margin-left: 0.4rem;
+    display: none;
+ }
+ .box5_dropdown p{
+     margin: auto;
+     padding: 1rem;
+     font-size: 22px;
+ }
+ .box6_dropdown{
+    background-color: rgb(48, 49, 50);
+    height: 190px;
+    width: 129.1vh;
+    margin-left: 0.4rem;
+    display: none;
+ }
+ .box6_dropdown p{
+     margin: auto;
+     padding: 1rem;
+     font-size: 22px;
+ }
+.container6 button{
+    width: 100%;
+    border: none;
+    background: none;
+}
+.box_focus span{
+    font-size: 42px;
+}
+
+.box_focus:focus-within .box1_dropdown{
+    display: block;
+}
+.box_focus:focus-within .box2_dropdown{
+    display: block;
+}
+.box_focus:focus-within .box3_dropdown{
+    display: block;
+}
+.box_focus:focus-within .box4_dropdown{
+    display: block;
+}
+.box_focus:focus-within .box5_dropdown{
+    display: block;
+}
+.box_focus:focus-within .box6_dropdown{
+    display: block;
+}
+.readyp{
+    margin-top: 2.5rem;
+}
+
+.getstarted_form{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.getstarted_input{
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    width: 50vh;
+    height: 7vh;
+    background-color: rgb(22, 21, 21);
+    opacity: 0.6;
+    color: white;
+}
+.getstarted_form button{
+    background-color: rgb(229,9,20);
+    width: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+   
+    color: white;
+}
+.getstarted_form button span{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+    
+}
